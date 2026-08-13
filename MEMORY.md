@@ -2,6 +2,19 @@
 
 Este archivo contiene todo el contexto estratégico, posicionamiento, buyer persona y estructura del servicio para mantener coherencia en futuras sesiones de desarrollo.
 
+## Regla operativa de publicación
+
+- El sitio está alojado en GitHub y desplegado en Vercel.
+- Cada cambio debe hacerse en GitHub y luego hacerse commit + push para que Vercel actualice el sitio automáticamente.
+- No se debe considerar el cambio como terminado si no quedó subido a GitHub.
+- Vercel se actualiza desde el repositorio de GitHub; es la fuente de verdad para producción.
+
+## Google Analytics y tracking
+
+- Este proyecto usa Google Analytics 4 con el ID: G-P67LQCDG4P.
+- Todo evento de clic, navegación y interacción debe registrarse con nombres legibles en español para facilitar lectura en Google Analytics.
+- Los eventos deben seguir un estilo claro y consistente, por ejemplo: `clic_agendar`, `clic_menu`, `faq_abierto`, `scroll_50_porcentaje`.
+
 ---
 
 ## 1. Concepto y Visión General
