@@ -3,7 +3,7 @@
  */
 
 // URL principal para agendar asesoría (Calendly, WhatsApp, Formulario o Pasarela de Pago)
-export const CTA_BOOKING_URL = 'https://calendly.com/tu-usuario/asesoria-ia'; // Reemplazar por tu enlace real de reserva
+export const CTA_BOOKING_URL = 'https://calendly.com/plabschile/30min'; // Reemplazar por tu enlace real de reserva
 
 // Datos de Marca
 export const BRAND_NAME = 'Asesoría IA Personal';
