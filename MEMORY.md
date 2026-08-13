@@ -38,7 +38,7 @@ Este archivo contiene todo el contexto estratégico, posicionamiento, buyer pers
 - **CTA Principal**: `"Quiero descubrir qué puedo hacer con IA"`
 - **CTA Secundario**: `"Quiero llevar mi IA al siguiente nivel"`
 - **Evitar CTAs Genéricos**: Quedan prohibidos CTAs como "Más información", "Contáctanos", "Saber más".
-- **Configuración de Enlaces**: Todos los botones leen su destino desde `src/config/constants.js` (`CTA_BOOKING_URL`).
+- **Configuración de Enlaces**: Todos los botones leen su destino desde `src/config/constants.js` (`CTA_BOOKING_URL = https://calendly.com/plabschile/reunion-de-1-hora`).
 
 ---
 
