@@ -519,6 +519,101 @@ img {
   gap: 0.85rem;
 }
 
+.pricing-card {
+  background: linear-gradient(180deg, #FFFFFF 0%, #F8FAFC 100%);
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  padding: 2.25rem;
+  max-width: 620px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.pricing-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(37, 99, 235, 0.1);
+  color: var(--primary);
+  border: 1px solid rgba(37, 99, 235, 0.2);
+  border-radius: var(--radius-full);
+  padding: 0.45rem 0.9rem;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+.pricing-card h3 {
+  margin-top: 1rem;
+  font-size: 1.6rem;
+  color: var(--text-heading);
+}
+
+.pricing-price {
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.25rem;
+  margin: 1rem 0 1.25rem;
+}
+
+.pricing-price .currency {
+  font-size: 1.4rem;
+  font-weight: 800;
+  color: var(--text-heading);
+}
+
+.pricing-price .amount {
+  font-size: 3.25rem;
+  line-height: 1;
+  font-weight: 800;
+  color: var(--text-heading);
+}
+
+.pricing-description {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--text-body);
+  max-width: 520px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.pricing-features {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  text-align: left;
+}
+
+.pricing-features li {
+  position: relative;
+  padding-left: 1.8rem;
+  color: var(--text-heading);
+  font-weight: 600;
+}
+
+.pricing-features li::before {
+  content: "✓";
+  position: absolute;
+  left: 0;
+  color: var(--accent-emerald);
+  font-weight: 800;
+}
+
+@media (max-width: 767px) {
+  .pricing-card {
+    padding: 1.5rem 1.25rem;
+  }
+
+  .pricing-price .amount {
+    font-size: 2.6rem;
+  }
+}
 .comparison-list li {
   display: flex;
   align-items: flex-start;
